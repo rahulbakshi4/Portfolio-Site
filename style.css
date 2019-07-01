@@ -273,7 +273,7 @@ img {
   #projects img {
    width: 100%;
    padding-top: 60px;
-   padding-bottom: 30px;
+   padding-bottom: 40px;
    height: auto;
    display: inline-flex;
    transition: .1s ease-in-out;
