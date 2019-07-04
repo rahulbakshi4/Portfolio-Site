@@ -326,7 +326,7 @@ img {
     height: 100%;
     width: 100%;
     text-align: center;
-    padding: 20px 270px;
+    padding: 20px 300px;
 
     }
 
@@ -340,7 +340,7 @@ img {
     #projects {
       background: #414141;
       background-size: cover;
-      padding: 200px 270px;
+      padding: 200px 300px;
       text-align: center;
       margin-bottom: 200px;
 }
