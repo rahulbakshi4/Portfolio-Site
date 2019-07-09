@@ -216,12 +216,15 @@ img {
 
 
 @media screen and (max-width: 480px) {
+  body,html{
+    overflow-x: hidden;
+  }
 
   .top-container {
     display: block;
     background: #414141;
     background-size: cover;
-    margin: 0px;
+    margin-left: -290px;
     padding: 130px 300px;
     text-align: center;
     width: 100%;
@@ -241,33 +244,40 @@ img {
   }
 
   #main-nav ul {
-    text-align: center;
-    margin-left: 0px;
+    text-align: left;
+    margin-left: -52px;
     margin-right: 0px;
     list-style-type: none;
   }
 
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
   img {
     width: 70%;
     height: 40%;
     display: block;
-    margin: 0px 320px;
     padding-top: 150px;
   }
 
 
   .details {
-    width: 100%;
+    width: 80%;
     display: block;
-    text-align: center;
+    text-align:center;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    margin: 0px 270px;
     padding-bottom: 200px;
+    font-size: 17px;
+    margin-left: 40px;
+
   }
 
   .project-section {
-    width: 100%;
+    width: 80%;
+    margin-left: -260px
 
   }
   #projects img {
@@ -279,7 +289,7 @@ img {
    transition: .1s ease-in-out;
    filter: grayscale(78%);
   }
-  
+
   .container img {
     width: 200px;
     height: 150px;
@@ -312,14 +322,12 @@ img {
   }
 
   #Contact {
-    margin: 20px 350px;
     font-size: 60px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     text-transform: uppercase;
   }
-  .mydetails h2{
-    margin: 30px 370px;
+
   }
   .bottom {
     background: #313131;
@@ -327,15 +335,14 @@ img {
     width: 100%;
     text-align: center;
     padding: 20px 300px;
-
-    }
-
+    margin-left: -290px;
+  }
     .icons img {
       transition: .1s;
-      height: 80px;
-      width: 90px;
-      padding: 20px 20px;
-      margin: 20px 80px;
+      height: 45px;
+      width: 50px;
+      margin-left: -20px;
+
     }
     #projects {
       background: #414141;
