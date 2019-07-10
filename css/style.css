@@ -99,7 +99,7 @@ img {
 }
 
 #projects img {
-  padding-bottom: 60px;
+  padding-bottom: 90px;
   width: 100%;
   padding-top: 60px;
   height: auto;
@@ -157,7 +157,7 @@ img {
 .button {
   position: absolute;
   width: 100%;
-  top: 515px;
+  top: 525px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
