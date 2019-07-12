@@ -216,7 +216,7 @@ img {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   body,html{
     overflow-x: hidden;
   }
@@ -246,7 +246,7 @@ img {
 
   #main-nav ul {
     text-align: center;
-    margin-left: -78px;
+    margin-left: -50px;
     margin-right: 0px;
     list-style-type: none;
   }
