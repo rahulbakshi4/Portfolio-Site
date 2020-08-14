@@ -177,7 +177,10 @@ img {
   height: 100%;
   text-align: center;
 }
-
+.bottom a{
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
 #project-name {
   color: white;
   font-size: 30px;
